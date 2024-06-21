@@ -6,27 +6,29 @@
  */
 int main(void)
 {
-
-	int n = 0;
+	int hundreds;
 	int tens;
 	int ones;
+	int n;
 
-	while (n <= 99)
+	for (n = 0; n < 1000; n++)
 	{
-		tens = n % 10;
-		ones = n / 10;
+		hundreds = n / 100;
+		tens = (n / 10) % 10;
+		ones = n % 10;
 
-		if (ones < tens)
+		if (hundreds < tens && tens < ones)
 		{
-			putchar(ones + '0');
+			putchar(hundreds + '0');
 			putchar(tens + '0');
-			if (n < 89)
+			putchar(ones + '0');
+
+			if (n < 700)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		n++;
 	}
 	putchar('\n');
 
