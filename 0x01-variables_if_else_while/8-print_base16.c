@@ -9,7 +9,7 @@ int main(void)
 {
 	char c;
 	int num;
-	
+
 	for (num = 0; num <= 9; num++)
 		putchar(num + '0');
 	for (c = 'a'; c <= 'f'; c++)
