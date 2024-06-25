@@ -5,8 +5,8 @@
  * description - prints _putchar
  * Return: 0
  */
-int main(void)
+int _putchar(char);
 {
-	_putchar('_putchar'\n');
+	_putchar('_putchar');
 	return (0);
 }	
