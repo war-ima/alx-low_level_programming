@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- * @c: the character prints _putchar
  * Return: 0
  */
 
