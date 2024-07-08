@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strncpy - concatenate strings, defining the size of second string.
+ * _strncpy - links strings, defining the size of second string.
  * @dest: string with concatenation
- * @src: string to be concatenated
- * @n: size of second string
+ * @src: string to be linked
+ * @n: second string size
  * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)

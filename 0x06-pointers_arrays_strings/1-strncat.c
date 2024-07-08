@@ -2,8 +2,8 @@
 /**
  * _strncat - defining the size of second string.
  * @dest: string with concatenation
- * @src: string to be concatenated
- * @n: size of second string
+ * @src: string to be linked
+ * @n: second string size
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)

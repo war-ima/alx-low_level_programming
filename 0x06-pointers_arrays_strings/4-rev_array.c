@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reverse_array - prints reverse array.
+ * reverse_array - reverse array printed
  * @a: array to be compared.
  * @n: size of array.
  * Return: reversed array.
